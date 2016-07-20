@@ -1,5 +1,6 @@
 fn main() 
 {
+    let pi = 3.141592;
     println!("{} days", 31);
     println!("{0}, this is {1}. {1}, this is {0}", "Alice", "Bob");
     println!("{subject} {verb} {object}",
@@ -12,4 +13,5 @@ fn main()
     #[derive(Debug)]
     struct Structure(i32);
     println!("This struct `{:?}`", Structure(3));
+    println!("Pi is roughly {0:.3}", pi);
 }
